@@ -24,7 +24,7 @@ function GetLogs($page, $perPage){
 
 
     
-Write-Host "Running GET message events for ..."
+Write-Host "Running GET message events for ... FromDate: $FromDate, ToDate: $ToDate, API: $apiKey"
 
 $paramPage = 1
 $paramPerPage = 1000
